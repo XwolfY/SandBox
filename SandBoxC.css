@@ -1,6 +1,10 @@
 
-#test {
-    color: aquamarine;
-    animation-duration: 3s;
-    animation-name: slidein;
+h2 {
+    color: crimson; 
+}
+
+
+#link {
+    color: cornflowerblue;
+    text-decoration:none;
 }
