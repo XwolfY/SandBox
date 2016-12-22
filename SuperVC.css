@@ -1,0 +1,47 @@
+h1 {
+    color:  #FE0000;
+    text-decoration: underline;
+}
+
+#test {
+    color: #3D5A5B;
+}
+
+#test1 {
+    color: crimson;
+}
+
+
+
+@keyframes animation {
+  from {
+    margin-left: 5%;
+    width: 300%;
+    color: #FD2E2E;
+    opacity: 0.1;
+    }
+    
+    50% {
+        color: #FD2E2E;
+        opacity: 0.5;
+    }
+    
+    75% {
+        color: #FD2E2E;
+    }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    color:  #FE0000;
+    opacity: 1;
+  }
+}
+
+h1:hover {
+    animation-delay:0.0001s;
+    animation-name: animation;
+    animation-duration: 1s;
+    color:  #FE0000;
+    text-decoration: underline;
+}
